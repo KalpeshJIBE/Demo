@@ -42,6 +42,8 @@
 		2ED2A7FD1AEF3B430092073F /* DemoKalpeshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoKalpeshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED2A8021AEF3B430092073F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ED2A8031AEF3B430092073F /* DemoKalpeshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoKalpeshTests.m; sourceTree = "<group>"; };
+		2ED2A80E1AEF41B80092073F /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Base; path = Base.lproj/MymodifiedClass.h; sourceTree = "<group>"; };
+		2ED2A8101AEF41B80092073F /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Base; path = Base.lproj/MymodifiedClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,8 @@
 		2ED2A7E31AEF3B430092073F /* DemoKalpesh */ = {
 			isa = PBXGroup;
 			children = (
+				2ED2A80D1AEF41B80092073F /* MymodifiedClass.h */,
+				2ED2A80F1AEF41B80092073F /* MymodifiedClass.m */,
 				2ED2A7E81AEF3B430092073F /* AppDelegate.h */,
 				2ED2A7E91AEF3B430092073F /* AppDelegate.m */,
 				2ED2A7EE1AEF3B430092073F /* ViewController.h */,
@@ -262,6 +266,22 @@
 				2ED2A7F71AEF3B430092073F /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		2ED2A80D1AEF41B80092073F /* MymodifiedClass.h */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ED2A80E1AEF41B80092073F /* Base */,
+			);
+			name = MymodifiedClass.h;
+			sourceTree = "<group>";
+		};
+		2ED2A80F1AEF41B80092073F /* MymodifiedClass.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ED2A8101AEF41B80092073F /* Base */,
+			);
+			name = MymodifiedClass.m;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
