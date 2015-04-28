@@ -10,4 +10,6 @@
 
 @interface MymodifiedClass : NSObject
 
+-(void)fakeMethod;
+
 @end
