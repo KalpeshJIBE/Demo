@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *TctChange;
+@property (weak, nonatomic) IBOutlet UIButton *ButtonClick;
+- (IBAction)pressButton:(id)sender;
 
 @end
 

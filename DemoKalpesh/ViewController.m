@@ -24,4 +24,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)pressButton:(id)sender
+{
+    self.TctChange.text=@"Welcome";
+    NSLog(@"This is a Git tutorial");
+}
 @end
