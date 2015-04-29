@@ -26,7 +26,7 @@
 
 - (IBAction)pressButton:(id)sender
 {
-    self.TctChange.text=@"Welcome";
+    self.TctChange.text=@"Welcome to iOS Develpment";
     NSLog(@"This is a Git tutorial");
 }
 @end
